@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from distutils.core import setup, find_packages
+from distutils.core import setup
 
 setup(name='facebook-python-sdk',
       version='1.0',
@@ -8,5 +8,5 @@ setup(name='facebook-python-sdk',
       author='',
       author_email='',
       url='http://github.com/digital-eskimo/fb-python-sdk',
-      packages=find_packages()
+      py_modules=['facebook', ],
      )
